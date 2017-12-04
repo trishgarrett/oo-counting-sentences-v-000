@@ -30,7 +30,7 @@ class String
     # sentence_count = self.split()
     #   sentence_count.count_sentences
 
-    sentence_array = self.split(/[.?!]/)
+    sentence_array = self.split(/[.?!]+/)
       return sentence_array.count
   end
 end
